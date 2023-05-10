@@ -31,3 +31,16 @@ body {
 #content {
     padding-top: 50px;
 }
+
+ul.gallery {
+    padding: 20px 50px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 30px;
+}
+
+ul.gallery > li > * {
+    height: 300px;
+}
