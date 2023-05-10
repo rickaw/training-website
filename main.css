@@ -39,6 +39,8 @@ ul.gallery {
     flex-wrap: wrap;
     justify-content: space-evenly;
     row-gap: 30px;
+
+    list-style-type: none;
 }
 
 ul.gallery > li > * {
