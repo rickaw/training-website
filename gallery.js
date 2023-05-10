@@ -1,4 +1,4 @@
-const imageSources = [
+const IMAGE_SOURCES = [
     'static/airfield1.jpeg',
     'static/bflu1.jpeg',
     'static/bhai1.jpeg',
@@ -17,7 +17,7 @@ const createListElementForImage = (imageSource) => {
     return li
 }
 
-const listElementsForImages = imageSources.map(imageSource => createListElementForImage(imageSource))
+const listElementsForImages = IMAGE_SOURCES.map(imageSource => createListElementForImage(imageSource))
 
 const flyingGallery = document.getElementById('flyingGallery')
 flyingGallery.append(...listElementsForImages)
