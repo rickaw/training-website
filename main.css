@@ -1,5 +1,6 @@
 * {
     font-family: "Courier New", sans-serif;
+    color: aliceblue;
 }
 
 body {
@@ -24,7 +25,6 @@ body {
 #navbar > a {
     float: left;
     font-size: 2.5em;
-    color: aliceblue;
     text-decoration: none;
 }
 
