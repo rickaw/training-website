@@ -1,0 +1,18 @@
+{
+  "name": "training-website",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rickaw/training-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rickaw/training-website/issues"
+  },
+  "homepage": "https://github.com/rickaw/training-website#readme"
+}
