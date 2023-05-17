@@ -27,6 +27,36 @@ body
 #content
     padding-top: 50px
 
+    .airplane
+        position: fixed
+        bottom: 0
+        width: 200px
+        animation: airplaneAnimation 4s linear infinite
+
+    @keyframes airplaneAnimation
+        0%
+            rotate: 0deg
+            bottom: 80px
+            left: 100%
+        10%
+            //left: 90%
+            bottom: 30px
+        15%
+            bottom: 10px
+        20%
+            bottom: 0
+            //left: 50%
+            rotate: 0deg
+        50%
+            bottom: -20px
+            rotate: 15deg
+        80%
+            bottom: 40px
+        100%
+            bottom: 130px
+            left: -200px
+            rotate: 20deg
+
 
 ul.gallery
     padding: 20px 50px
