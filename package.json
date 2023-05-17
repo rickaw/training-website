@@ -15,7 +15,7 @@
     "url": "https://github.com/rickaw/training-website/issues"
   },
   "homepage": "https://github.com/rickaw/training-website#readme",
-  "dependencies": {
+  "devDependencies": {
     "sass": "^1.62.1"
   }
 }
