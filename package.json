@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
+    "compileStyle": "sass src/main.scss build/main.css",
+    "copySrc": "copyfiles -u 1 src/**/*.html src/static/* src/**/*.js build",
+    "build": "npm run compileStyle && npm run copySrc",
+    "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,6 +20,8 @@
   },
   "homepage": "https://github.com/rickaw/training-website#readme",
   "devDependencies": {
+    "copyfiles": "^2.4.1",
+    "gh-pages": "^5.0.0",
     "sass": "^1.62.1"
   }
 }
