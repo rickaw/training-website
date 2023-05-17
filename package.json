@@ -14,5 +14,8 @@
   "bugs": {
     "url": "https://github.com/rickaw/training-website/issues"
   },
-  "homepage": "https://github.com/rickaw/training-website#readme"
+  "homepage": "https://github.com/rickaw/training-website#readme",
+  "dependencies": {
+    "sass": "^1.62.1"
+  }
 }
