@@ -2,9 +2,13 @@
     font-family: "Courier New", sans-serif
     color: aliceblue
 
+html
+    height: 100%
+
 body
     background-color: #3333cc
     margin: 0
+    height: 100%
 
 #navbar
     position: fixed
@@ -26,11 +30,14 @@ body
 
 #content
     padding-top: 50px
+    height: 100%
 
     .airplane
         position: fixed
         bottom: 0
         width: 200px
+
+    .moving
         animation: airplaneAnimation 4s linear infinite
 
     @keyframes airplaneAnimation
