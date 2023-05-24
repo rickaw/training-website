@@ -3,9 +3,14 @@
   color: aliceblue;
 }
 
+html {
+  height: 100%;
+}
+
 body {
-  background-color: midnightblue;
+  background-color: #3333cc;
   margin: 0;
+  height: 100%;
 }
 
 #navbar {
@@ -27,11 +32,14 @@ body {
 
 #content {
   padding-top: 50px;
+  height: 100%;
 }
 #content .airplane {
   position: fixed;
   bottom: 0;
   width: 200px;
+}
+#content .moving {
   animation: airplaneAnimation 4s linear infinite;
 }
 @keyframes airplaneAnimation {
