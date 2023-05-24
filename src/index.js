@@ -4,10 +4,10 @@ let isFreeFalling = false
 let isOnGround = false
 let rotationInDeg = 0
 
-const accelerationX = 5
-const accelerationY = 5
+const accelerationX = 7
+const accelerationY = 7
 const freeFallAccelerationY = 30
-const angularAccelerationInDeg = 30
+const angularAccelerationInDeg = 50
 
 const interval = 0.02
 
