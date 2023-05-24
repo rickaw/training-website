@@ -8,6 +8,7 @@ const IMAGE_SOURCES = [
     'static/cockpit1.jpeg',
     'static/cockpit2.jpeg',
     'static/outside1.jpeg',
+    'static/cdtx1.jpeg',
 ]
 
 const createListElementForImage = (imageSource) => {
