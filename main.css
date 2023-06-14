@@ -91,15 +91,22 @@ body {
 }
 
 ul.gallery {
-  padding: 20px 50px;
+  padding: 10px 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   row-gap: 30px;
+  column-gap: 10px;
   list-style-type: none;
 }
+@media (min-width: 1008px) {
+  ul.gallery {
+    padding: 20px 50px;
+  }
+}
 ul.gallery li > img {
-  height: 400px;
+  max-height: 400px;
+  max-width: 100%;
   border-radius: 10px;
 }
 
