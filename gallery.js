@@ -1,14 +1,14 @@
 const IMAGE_SOURCES = [
-    'static/airfield1.jpeg',
+    'static/cdtx1.jpeg',
     'static/bflu1.jpeg',
     'static/bhai1.jpeg',
-    'static/bhai2.jpeg',
-    'static/bhai3.jpeg',
-    'static/bhai4.jpeg',
-    'static/cockpit1.jpeg',
     'static/cockpit2.jpeg',
     'static/outside1.jpeg',
-    'static/cdtx1.jpeg',
+    'static/airfield1.jpeg',
+    'static/bhai3.jpeg',
+    'static/cockpit1.jpeg',
+    'static/bhai4.jpeg',
+    'static/bhai2.jpeg',
 ]
 
 const createListElementForImage = (imageSource) => {
